@@ -15,7 +15,7 @@ Install
 
 1.download or compile
 
-* optional 1 - download pre-build package from here: https://github.com/medcl/elasticsearch-analysis-ik/releases
+* optional 1 - download pre-build package from here: https://github.com/whnbeyond/elasticsearch-analysis-hfgo/releases
 
     create plugin folder `cd your-es-root/plugins/ && mkdir ik`
 
@@ -58,7 +58,7 @@ curl -XPOST http://localhost:9200/index/_create/1 -H 'Content-Type:application/j
 ```
 
 
-4.query with highlighting
+4.query
 
 ```bash
 curl -XPOST http://localhost:9200/index/_search  -H 'Content-Type:application/json' -d'
