@@ -15,7 +15,7 @@ Install
 
 1.download or compile
 
-* optional 1 - download pre-build package from here: https://github.com/whnbeyond/elasticsearch-analysis-hfgo/tree/master/releases
+* optional 1 - download pre-build package from here: https://github.com/whnbeyond/elasticsearch-analysis-hfgo/releases
 
     create plugin folder `cd your-es-root/plugins/ && mkdir ik`
 
