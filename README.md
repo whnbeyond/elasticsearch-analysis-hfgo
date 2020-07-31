@@ -6,7 +6,7 @@ Analyzer:  `hfgo_max_word`
 Versions
 --------
 
-IK version | ES version
+HFGO version | ES version
 -----------|-----------
 master | 6.x -> master
 
