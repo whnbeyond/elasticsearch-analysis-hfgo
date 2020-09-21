@@ -53,7 +53,7 @@ curl -XPOST http://localhost:9200/index/_mapping -H 'Content-Type:application/js
 
 ```bash
 curl -XPOST http://localhost:9200/index/_create/1 -H 'Content-Type:application/json' -d'
-{"content":"中国联通话费购"}
+{"content":"中国联"}
 '
 ```
 
@@ -89,7 +89,7 @@ Result
                 "_id": "1",
                 "_score": 2,
                 "_source": {
-                    "content": "中国联通话费购"
+                    "content": "中国联"
                 }
             }
         ]
@@ -101,37 +101,15 @@ Result
 ### 说明
 
 该插件对文本进行最大顺序排列组合，使任意、顺序组合的文字都作为一个分词。（如果文本中包含英文字符，会被统一转换为小写）<br>
-例如，对“中国联通话费购”进行分词，则获取的分词为：
+例如，对“中国联”进行分词，则获取的分词为：
 
 ```
-中国联通话费购
-中国联通话费
-中国联通话
-中国联通
 中国联
 中国
 中
-国联通话费购
-国联通话费
-国联通话
-国联通
 国联
 国
-联通话费购
-联通话费
-联通话
-联通
 联
-通话费购
-通话费
-通话
-通
-话费购
-话费
-话
-费购
-费
-购
 ```
 从而达到输入任意词或词组都可搜索的目的。
 
