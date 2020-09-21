@@ -17,9 +17,9 @@ Install
 
 * optional 1 - download pre-build package from here: https://github.com/whnbeyond/elasticsearch-analysis-hfgo/releases
 
-    create plugin folder `cd your-es-root/plugins/ && mkdir ik`
+    create plugin folder `cd your-es-root/plugins/ && mkdir hfgo`
 
-    unzip plugin to folder `your-es-root/plugins/ik`
+    unzip plugin to folder `your-es-root/plugins/hfgo`
 
 2.restart elasticsearch
 
