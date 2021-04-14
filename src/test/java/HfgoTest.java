@@ -10,7 +10,7 @@ public class HfgoTest {
     @Test
     public void testAnalyzer() throws Exception {
         HFGOAnalyzer analyzer = new HFGOAnalyzer();
-        TokenStream ts = analyzer.tokenStream("text", "中国联通话费购");
+        TokenStream ts = analyzer.tokenStream("text", "中国联");
         CharTermAttribute term = ts.addAttribute(CharTermAttribute.class);
         ts.reset();
         while (ts.incrementToken()) {
